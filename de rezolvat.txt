@@ -1,2 +1,4 @@
-edit shift!!!! 
+edit shift!!!! - sa ia datele din localStorage si sa le puna in campurile editabile
 redirectionare pe login dupa ce  am creat user 
+edit profile
+hello user  - sa iau userul dei local storage
