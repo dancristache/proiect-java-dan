@@ -125,7 +125,7 @@ document.querySelector(".btn").addEventListener("click", (e) => {
         storage.push(user);
         console.log(storage);
         localStorage.setItem("savelocalstorage",JSON.stringify(storage));}
-        window.location.href="login.html"
+        // window.location.href="login.html"
     
 
 
