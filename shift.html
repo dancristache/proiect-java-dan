@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stayle.css" />
+    <title>Shifts</title>
+</head>
+<body>
+
+    <h1>My Shifts</h1>
+    <div class="shift">
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <button class="btn" onclick="addRow()">Add Shift</button>
+        <a href="editprofile.html">Edit Profile</a>
+        <a href="#hellouser">Hello: User</a>
+        <a href="login.html">Logout</a>
+      </div>
+
+      <div class="inputshifts">
+      Date:<input type="date" name="date" id="date"/> <br>
+      Shift slug: <input type="text" name="shiftslug" id="shiftslug"/> <br>
+      Work Place: <input type="text" name="workplace" id="workplace"/> <br>
+      Hour Start: <input type="time" name="hourstart" id="hourstart"/> <br>
+      Hour End: <input type="time" name="hourend" id="hourend"/> <br>
+      Total hour Wage: <input type="number" name="totalhourwage" id="totalhourwage"/> <br>
+      Comments: <input type="text" name="comments" id="comments"/> <br>
+      </div>
+      <div class="search">
+        <p>Search Shift: from data</p>
+        <input type="date" id="from" placeholder="Search from date .."><br>
+        <p>to data</p>
+        <input type="date" id="to" placeholder="to date .."><br>
+
+        <input type="button"  id="search" value="Aply fillter"><br> 
+
+            </div>
+
+      <table>
+        <tr>
+          <th>Date</th>
+          <th>Shift slug</th>
+          <th>Work Place</th>
+          <th>Hour Start</th>
+          <th>Hour End</th>
+          <th>Total hour Wage</th>
+          <th>Comments</th>
+        </tr>
+        
+      </table>
+      
+    </div>
+</body>
+<script src="shift.js"></script>
+</html>
